@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="activity_backgroup">#FFFFFFFF</color>
+    <dimen name="float_win_margin">8dp</dimen>
+    <dimen name="top_margin">3dp</dimen>
+    <dimen name="win_margin">15dp</dimen>
+    <string name="app_name">huaiSDK</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="YhSDK_NoTitle_Dialog" parent="@android:style/Theme.Dialog">
+        <!-- activity无黑边 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- activity可滑动 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- activity透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- activity无标题 
+        <item name="android:background">@android:color/black</item>-->
+        <item name="android:windowBackground">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- activity不变暗 -->
+    </style>
+</resources>

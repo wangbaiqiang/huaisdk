@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configer>
+	<landscape value="true" />
+	<channelid value="1" />
+	<subchannelid value="0" />
+	<debug value="false" />
+	<sdkversion value="1.0.0" />
+	<logmodel value="1" />
+	<td value = "814645396DC24708B376ECCCFBAD9E86"/>
+	<hasjointd value = "false"/>
+	<hasjoinry value = "false"/>
+	<component type="sdk" value="com.yinhan.nsdk.hanfeng.v2_0_0.HanfengNSdk" />
+	<component type="activity" value="com.yinhan.nsdk.hanfeng.v2_0_0.HanfengNSdk" />
+</configer>

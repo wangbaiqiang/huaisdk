@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\huaisdk\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "E:\\huaisdk\\app\\src\\main\\res\\values\\color.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endColumns": "54",
+                        "endOffsets": "107"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "54",
+                        "endOffsets": "105"
+                    }
+                },
+                {
+                    "source": "E:\\huaisdk\\app\\src\\main\\res\\values\\gamesdk_dimens.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "90,138,180",
+                        "endColumns": "46,40,41",
+                        "endOffsets": "132,174,217"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "110,157,198",
+                        "endColumns": "46,40,41",
+                        "endOffsets": "152,193,235"
+                    }
+                },
+                {
+                    "source": "E:\\huaisdk\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2,11,14",
+                        "startColumns": "0,4,5",
+                        "startOffsets": "15,348,512",
+                        "endLines": "8,13,26",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "307,505,1117"
+                    },
+                    "to": {
+                        "startLines": "7,14,17",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "285,576,736",
+                        "endLines": "13,16,29",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "571,731,1329"
+                    }
+                },
+                {
+                    "source": "E:\\huaisdk\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "44",
+                        "endOffsets": "57"
+                    },
+                    "to": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "240",
+                        "endColumns": "44",
+                        "endOffsets": "280"
+                    }
+                }
+            ]
+        }
+    ]
+}

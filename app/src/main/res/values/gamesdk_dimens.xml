@@ -1,0 +1,6 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="float_win_margin">8dp</dimen>
+    <dimen name="top_margin">3dp</dimen>
+    <dimen name="win_margin">15dp</dimen>
+</resources>

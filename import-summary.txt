@@ -1,0 +1,62 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .project.bak
+* build.xml
+* ic_launcher-web.png
+* proguard-project.txt
+* release\
+* release\hfsdk_release_v1.0.3.jar
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* libs\alipaysdk.jar => app\libs\alipaysdk.jar
+* libs\alipaysecsdk.jar => app\libs\alipaysecsdk.jar
+* libs\alipayutdid.jar => app\libs\alipayutdid.jar
+* libs\arm64-v8a\libentryexpro.so => app\src\main\jniLibs\arm64-v8a\libentryexpro.so
+* libs\arm64-v8a\libuptsmaddon.so => app\src\main\jniLibs\arm64-v8a\libuptsmaddon.so
+* libs\armeabi-v7a\libentryexpro.so => app\src\main\jniLibs\armeabi-v7a\libentryexpro.so
+* libs\armeabi-v7a\libuptsmaddon.so => app\src\main\jniLibs\armeabi-v7a\libuptsmaddon.so
+* libs\armeabi\libentryexpro.so => app\src\main\jniLibs\armeabi\libentryexpro.so
+* libs\armeabi\libuptsmaddon.so => app\src\main\jniLibs\armeabi\libuptsmaddon.so
+* libs\mips\libentryexpro.so => app\src\main\jniLibs\mips\libentryexpro.so
+* libs\okgo-3.0.4.jar => app\libs\okgo-3.0.4.jar
+* libs\okhttp-3.1.2.jar => app\libs\okhttp-3.1.2.jar
+* libs\okio-1.6.0.jar => app\libs\okio-1.6.0.jar
+* libs\TalkingData_AdTracking_SDK_Android.jar => app\libs\TalkingData_AdTracking_SDK_Android.jar
+* libs\ulo5sdk-1.5.2.jar => app\libs\ulo5sdk-1.5.2.jar
+* libs\UPPayAssistEx.jar => app\libs\UPPayAssistEx.jar
+* libs\UPPayPluginExPro.jar => app\libs\UPPayPluginExPro.jar
+* libs\x86\libentryexpro.so => app\src\main\jniLibs\x86\libentryexpro.so
+* libs\x86\libuptsmaddon.so => app\src\main\jniLibs\x86\libuptsmaddon.so
+* libs\x86_64\libentryexpro.so => app\src\main\jniLibs\x86_64\libentryexpro.so
+* libs\x86_64\libuptsmaddon.so => app\src\main\jniLibs\x86_64\libuptsmaddon.so
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

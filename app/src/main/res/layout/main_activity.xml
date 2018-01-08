@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/gameLoginBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="登录" />
+    <Button
+        android:id="@+id/sidverfiy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="通过sid获取uid" />
+
+    <Button
+        android:id="@+id/gamePayBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+        android:text="支付" />
+
+    <Button 
+        android:id="@+id/subInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+         android:layout_marginTop="30dp"
+        android:text="提交游戏信息"  />
+
+    <Button
+        android:id="@+id/showFloatBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="显示浮标" />
+
+    <Button
+        android:id="@+id/hideFloatBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="隐藏浮标" />
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+1：SDK接入准备：
+		将jar包、so文件、libs文件、assert目录下的资源、res下的图片资源、布局文件、文字资源导入项目
+2：配置AndroidManifest.xml
+		项目中的权限，四大组件命名全部导入项目
+3：SDK对接接口
+		请参考项目TestGameMainActivity里面的接口方法、这个要自己写好
+4：横竖屏切换
+		SDK默认是横屏，如需要设置竖屏，请在主Activity的onCreate()里面，添加GameSdkConstants.isPORTRAIT = true;
+5：全局调试日志开启和关闭
+		Log级别为info、默认是开启调试日志。如果想关闭调试日志，请在主Activity的onCreate()里面，添加GameSdkConstants.user_Logger = false;
+
+
+SDK常见问题：
+
+A：U3D接入，初始化成功后，报NullPointerException异常，然后整个APP退出了，请问这个怎么解决？
+		答：主要是unity 的版本过低导致的，建议把unity的版本升级到4.6.3p1 以上。
+
+Other:(其他常见问题根据自身业务拓展使用)
